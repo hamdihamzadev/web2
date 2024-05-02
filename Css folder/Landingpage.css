@@ -1,0 +1,555 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Shantell Sans', cursive;
+}
+
+
+
+
+/*----------------------------------------START HEADER---------------------------*/
+
+
+.header {
+    background-color: #452720;
+    position: sticky;
+    top: 0px;
+    z-index: 909;
+}
+
+.back-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B1895D;
+    ;
+    padding: 0px 150px;
+    border-bottom-left-radius: 59px;
+    border-bottom-right-radius: 59px;
+
+}
+
+
+
+.back-header.logo a img {
+    width: 60px;
+    padding: 6px 0px;
+}
+
+.back-header .nav {
+    list-style: none;
+    display: flex;
+
+
+}
+
+.back-header .nav li {
+    margin-left: 56px;
+}
+
+.back-header .nav li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.back-header .nav li a:hover {
+    color: #452720;
+}
+
+/*----------------------------------------START slide--------------------------*/
+
+
+.slide {
+
+    background-color: #452720;
+
+}
+
+.slide .background-slide {
+    display: flex;
+    margin: 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 56px 0px;
+}
+
+.slide .background-slide .photo-coffee {
+    width: 46%;
+    margin-left: 20px;
+}
+
+.slide .background-slide .text-slide {
+    margin-right: 20px;
+
+}
+
+.slide .background-slide .text-slide .substitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: #b1895d;
+
+}
+
+.slide .background-slide .text-slide .title {
+    font-size: 68px;
+    margin-bottom: 22px;
+    color: white;
+    margin-top: 27px;
+
+}
+
+.slide .background-slide .text-slide .paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1;
+    margin-bottom: 77px;
+    color: white;
+
+}
+
+.slide .background-slide .text-slide .cta {
+    padding: 18px 32px;
+    background-color: #b1895d;
+    border-radius: 46px;
+
+}
+
+.slide .background-slide .text-slide .cta a {
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+}
+
+
+
+/*----------------------------------------START Menu-----------------------------------------------*/
+
+.menu {
+    background-color: #452720;
+}
+
+.menu .back-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #58362e;
+    padding: 142px 153px;
+    border-top-left-radius: 59px;
+    border-top-right-radius: 59px;
+}
+
+.menu .back-menu .text-menu .cta {
+    padding: 18px 32px;
+    background-color: #452720;
+    border-radius: 46px;
+}
+
+.menu .back-menu .text-menu .cta a {
+    text-decoration: none;
+    color: white;
+    font-size: 16pt;
+
+}
+
+.menu .back-menu .text-menu .paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 1;
+    margin-top: 45px;
+    color: white;
+
+}
+
+
+.menu .back-menu .product {
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    width: 50%;
+
+}
+
+.menu .back-menu .product .prd-1,
+.prd-2,
+.prd-3{
+    width: 33%;
+    position: relative;
+    transition: 0.6s;
+   
+}
+
+.menu .back-menu .product .photo-product {
+    width: 50%;
+    
+}
+
+.menu .back-menu .product .prd-1:hover{
+    transform: scale(1.1);
+}
+
+.menu .back-menu .product .prd-2:hover{
+    transform: scale(1.1);
+}
+
+.menu .back-menu .product .prd-3:hover{
+    transform: scale(1.1);
+}
+
+.menu .back-menu .product .name-price {
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+    margin-bottom: 0px;
+}
+
+
+/*----------------------------------------START history-----------------------------------------------*/
+
+.History {
+    background-color: #58362e
+}
+
+.History .back-history {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 106px 153px;
+    border-top-left-radius: 59px;
+    border-top-right-radius: 59px;
+}
+
+.History .back-history .img-history {
+    width: 50%;
+    border-radius: 37px;
+}
+
+.History .back-history .text-history {
+    width: 50%;
+    margin-left: 101px;
+}
+
+.History .back-history .text-history .title {
+    font-size: 68px;
+    margin-bottom: 22px;
+    color: black;
+    margin-top: 27px;
+}
+
+.History .back-history .text-history .paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.9;
+    letter-spacing: 1;
+    margin-top: 45px;
+    color: black;
+}
+
+/*----------------------------------------START STEPS---------------------------*/
+
+.steps{
+    background-color: white;
+    height: 982px;
+}
+
+
+
+.steps .back-steps{
+    border-top-left-radius: 59px;
+    border-top-right-radius: 59px;
+    text-align: center;
+    background-color: #452720;
+    height: 982px;
+    position: relative;
+
+}
+
+.steps .back-steps .coffee-bg{
+    opacity: 0.2;
+}
+
+.steps .back-steps .heading{
+    font-size: 49px;
+    color: rgb(255, 255, 255);
+    margin-top: 37px;
+    position: absolute;
+    top: 41px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    width: 100%;
+}
+
+.steps .back-steps .line-circle{
+    transform: rotate(87deg);
+    width: 302px;
+    position: absolute;
+    top: 186px;
+    left: 626px;
+}
+
+
+.steps .back-steps .three-steps{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.steps .back-steps .three-steps .step-1{
+    width: 17%;
+    position: absolute;
+    left: 153px;
+    top: 332px;
+
+}
+
+.steps .back-steps .three-steps .step-3{
+    width: 17%;
+    position: absolute;
+    right: 153px;
+    top: 332px;
+
+}
+
+
+
+.steps .back-steps .three-steps .step-2{
+    position: absolute;
+    width: 17%;
+    display: flex;
+    flex-direction: column-reverse;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -69px;
+}
+
+.steps .back-steps .three-steps .number{
+    background-color: #DCB56E;
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 36px;
+    outline-color: #452720;
+    outline-style: solid;
+    outline-width: 8px;
+    position: absolute;
+}
+
+.steps .back-steps .three-steps .number h1{
+    color: #452720;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+.steps .back-steps .three-steps .photo-step{
+    background-color: #62433A;
+    height: 260px;
+    width: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 140px;
+    box-shadow: -1px 1px 11px 1px rgb(0 0 0 / 4%);
+
+}
+
+.steps .back-steps .three-steps .photo-step .photo{
+    width: 84%;
+}
+
+
+.steps .back-steps .three-steps .paragraph{
+    color: white;
+    text-align: start;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 16px;
+
+}
+
+.steps .back-steps .three-steps .paragraph-2{
+    color: white;
+    text-align: start;
+    line-height: 1.6;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 16px;
+
+}
+
+/*----------------------------------------Johne Doe--------------------------------------------*/
+
+.johne-doe{
+    background-color: #452720;
+    position: relative;
+
+}
+
+.johne-doe .coffee-bg{
+    opacity: 0.2;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.johne-doe .back-johne{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 106px 153px;
+    background-color: white;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+
+}
+
+.johne-doe .back-johne .photo-johne{
+    border-radius: 37px;
+    width: 600px;
+}
+
+
+.johne-doe .back-johne .text .heading{
+    font-size: 43px;
+    margin-bottom: 57px;
+
+}
+
+.johne-doe .back-johne .text .name{
+    font-weight: 500;
+}
+
+
+
+
+/*----------------------------------------FOOTER--------------------------------------------*/
+
+.footer{
+    background-color: white;
+    height: 65vh;
+}
+
+.footer .back-footer{
+    background-color: #452720;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    position: relative;
+    height: 75vh;
+    padding-top: 82px;
+
+}
+
+.footer .back-footer .coffee-bg{
+    opacity: 0.2;
+    position: absolute;
+    left: -8px;
+    object-fit: cover;
+    object-position: top;
+    height: 64vh;
+    width: 100%;
+    bottom: 55px;
+
+}
+
+.footer .back-footer .newsletter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 153px;
+}
+
+.footer .back-footer .newsletter .text-logo .text{
+    color: white;
+}
+.footer .back-footer .newsletter .button{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer .back-footer .newsletter .button .email{
+    background-color: transparent;
+    width: 345px;
+    height: 59px;
+    border-radius: 58px;
+    outline: none;
+    border: 2px solid #b1895d;
+    font-size: large;
+    margin-bottom: 22px;
+    padding-left: 29px;
+}
+
+.footer .back-footer .newsletter .button .email::placeholder{
+    color: #b1895d;
+}
+
+
+
+
+.footer .back-footer .newsletter .button .submit{
+    background-color: #b1895d;
+    outline: none;
+    border: none;
+    width: 345px;
+    height: 59px;
+    border-radius: 50px;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    
+}
+
+.footer .back-footer .newsletter .button .paragraph{
+    color: white;
+    font-size: 14px;
+}
+
+
+.footer .back-footer .Social-ccopy{
+    text-align: center;
+    margin-top: 249px;
+
+}
+
+.footer .back-footer .Social-ccopy .social-media{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 32px;
+}
+
+.footer .back-footer .Social-ccopy .social-media li{
+    list-style: none;
+}
+
+.footer .back-footer .Social-ccopy .social-media li a i{
+    color: white;
+}
+
+.footer .back-footer .Social-ccopy .copywright{
+    color: white;
+    letter-spacing: 2.6px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
